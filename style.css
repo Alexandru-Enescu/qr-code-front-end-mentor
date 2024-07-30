@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Outfit", sans-serif;
     background-color: hsl(212, 45%, 89%);
-    min-height: 95vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 main {
@@ -19,10 +26,13 @@ main {
 
 img {
     margin: 1.1rem;
+    width: 267px;
+    height: auto;
     border-radius: 0.7rem;
 }
 
-h3 {
+h1 {
+    font-size: 20px;
     font-weight: 700;
     margin: 0 2rem;
     color: hsl(218, 44%, 22%);
@@ -31,13 +41,13 @@ h3 {
 p {
     font-size: 15px;
     font-weight: 400;
-    margin: 1rem 2rem 2rem 2rem;
+    margin: 1rem 2rem 2.5rem 2rem;
     color: hsl(216, 15%, 48%);
 }
 
-.attribution {
-    margin-top: 2rem;
+footer {
     text-align: center;
+    margin-top: 1rem;
 }
 
 a {
